@@ -28,5 +28,3 @@ function __construct($db) {
 
 
 }
-
-
