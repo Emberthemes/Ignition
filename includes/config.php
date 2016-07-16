@@ -8,7 +8,7 @@
 
 $config['title'] = 'This is the title!';
 $config['description'] = 'This is the description!';
-
+$config['language'] = 'en';
 
 /**
  * Database Infomation
