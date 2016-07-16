@@ -7,8 +7,9 @@
 
 // Define Paths
 
+define('PATH_BASE',  realpath(dirname(__FILE__) . '..'));
 define('PATH_ABSOLUTE', dirname(__FILE__) . '/');
-define('PATH_ASSETS',  realpath(dirname(__FILE__) . '..') . 'assets/');
+define('PATH_ASSETS',  PATH_BASE . 'assets/');
 define('PATH_LANGUAGE', PATH_ABSOLUTE . 'language/');
 define('PATH_IGNITION', PATH_ABSOLUTE . 'ignition/');
 define('PATH_TEMPLATES', PATH_ABSOLUTE . 'templates/');
