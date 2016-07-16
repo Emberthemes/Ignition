@@ -7,7 +7,7 @@
  
 $classes = array('Database', 'Auth', 'General'); // Define the classes we use
 
-include(PATH_BASE . '/includes/init.php'); 
+include(dirname(__FILE__) . '/includes/init.php'); 
 
 $db = New Database($database); 
 
