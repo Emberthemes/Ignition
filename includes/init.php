@@ -5,7 +5,6 @@
  * Emberthemes.net
  */
 
-
 // Define Paths
 
 define('PATH_ABSOLUTE', dirname(__FILE__) . '/');
