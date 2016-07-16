@@ -29,8 +29,6 @@ if (file_exists(PATH_LANGUAGE . $config['language'] . '.php')) {
 
 // Define & Dynamically load ignition classes
 
-$classes = array('Database', 'General'); // Probably include this at the top of each page
-
 foreach($classes as $class) {
 	if(file_exists(PATH_IGNITION . $class . '.class.php')) {
 		include(PATH_IGNITION . $class . '.class.php');
