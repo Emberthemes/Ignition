@@ -11,6 +11,8 @@
 define('PATH_ABSOLUTE', dirname(__FILE__) . '/');
 define('PATH_LANGUAGE', PATH_ABSOLUTE . 'language/');
 
+// Include Config
+
 include (PATH_ABSOLUTE . 'config.php');
 
 // Check if language file exists, default to engrish
