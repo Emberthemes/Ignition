@@ -5,7 +5,7 @@
  * Emberthemes.net
  */
  
-$classes = array('Database', 'General'); // Define the classes we use
+$classes = array('Database', 'Auth', 'General'); // Define the classes we use
 
 include(dirname(__FILE__) . '/includes/init.php');
 
