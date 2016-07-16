@@ -14,9 +14,9 @@ $config['language'] = 'en';
  * Database Infomation
  */
 
-$db['host'] = 'localhost';
-$db['name'] = 'database name';
-$db['user'] = 'database user';
-$db['pass'] = 'database password';
+$database['host'] = 'localhost';
+$database['name'] = 'database name';
+$database['user'] = 'database user';
+$database['pass'] = 'database password';
 
 ?>

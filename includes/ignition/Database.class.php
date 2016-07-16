@@ -13,12 +13,12 @@ Class Database {
     private $dbUser;
     private $dbPass;
 
-function __construct($db) {
+function __construct($database) {
 
-	$this->dbHost = $db['host'];
-	$this->dbName = $db['name'];
-	$this->dbUser = $db['user'];
-	$this->dbPass = $db['pass'];
+	$this->dbHost = $database['host'];
+	$this->dbName = $database['name'];
+	$this->dbUser = $database['user'];
+	$this->dbPass = $database['pass'];
 
 	$connect = new mysqli($this->dbHost, $this->dbUser, $this->dbPass, $this->dbName);
 	if($connect->connect_errno > 0){
