@@ -10,6 +10,7 @@
 define('PATH_ABSOLUTE', dirname(__FILE__) . '/');
 define('PATH_LANGUAGE', PATH_ABSOLUTE . 'language/');
 define('PATH_IGNITION', PATH_ABSOLUTE . 'ignition/');
+define('PATH_TEMPLATES', PATH_ABSOLUTE . 'templates/');
 
 // Include Config
 
@@ -36,5 +37,9 @@ foreach($classes as $class) {
 		echo 'Ignition Class:' . $class . ' does not exist';
 	}
 }
+
+// Include Header
+
+include (PATH_TEMPLATES . 'header.php');
 
 ?>
